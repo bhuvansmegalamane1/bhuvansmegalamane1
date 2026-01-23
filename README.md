@@ -1,19 +1,21 @@
-## Hi there 👋
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
+# Hi, I'm Bhuvan 👋
 
-<!--
-**bhuvansmegalamane1/bhuvansmegalamane1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 Computer Science Engineering Student  
+💻 Software Developer | AI & Computer Vision Enthusiast  
+📍 Bangalore, India  
 
-Here are some ideas to get you started:
+## 🛠 Tech Stack
+- Languages: Python, JavaScript, SQL
+- Frontend: HTML, CSS, React
+- AI/ML: OpenCV, MediaPipe, TensorFlow, PyTorch
+- Tools: Git, GitHub, Tableau, Power BI
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Projects
+- **Sign Speak AI** – Real-time sign language recognition with speech output
+- **Interview Analyzer** – Posture & movement analysis using MediaPipe
+- **Diabetic Foot Ulcer Detection** – YOLO-based medical image detection
+- **Healthcare Chatbot** – AI chatbot for patient guidance
+
+## 📫 Contact
+- Email: bhuvansmegalamane2003@gmail.com
+- LinkedIn: https://www.linkedin.com/in/bhuvan-s-megalamane
