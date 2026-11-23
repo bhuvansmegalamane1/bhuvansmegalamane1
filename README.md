@@ -1,6 +1,5 @@
 <h1 align="center">Hey, I'm Bhuvan S Megalamane 👋</h1><p align="center">
-  <strong>Software Developer · AI/ML · Computer Vision · Data Analytics</strong>
-  <br />
+  <strong>Software Developer · AI/ML · Computer Vision · Data Analytics</strong><br />
   Building practical applications and exploring intelligent software solutions.
 </p><p align="center">
   <a href="https://github.com/bhuvansmegalamane1">
@@ -37,28 +36,22 @@
 🩺 Diabetic Foot Ulcer Detection & Classification
 An AI-powered platform for ulcer detection, severity staging, clinical risk assessment, and report generation.
 
-Tech: Python · YOLOv8 · EfficientNet · Streamlit
+Tech stack: Python · YOLOv8 · EfficientNet · Streamlit
 
-View project →
+View repository →
 📊 HR Analytics Dashboard
 A dashboard exploring employee attrition, salary patterns, workforce distribution, and department-level insights.
 
-Tech: Power BI · DAX · Data Visualization
-
-View project →
+Tech stack: Power BI · DAX · Data Visualization
 🛒 Retail Sales SQL & Pandas Analysis
-A data cleaning and exploratory analysis project using SQL and Python to uncover retail sales and customer insights.
+A data cleaning and exploratory analysis project using SQL and Python to explore retail sales and customer data.
 
-Tech: SQL · Python · Pandas · NumPy
-
-View project →
-
-Explore all repositories →
-🏆 GitHub Trophies
+Tech stack: SQL · Python · Pandas · NumPy
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=bhuvansmegalamane1&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1" alt="GitHub profile trophies" />
+  <a href="https://github.com/bhuvansmegalamane1?tab=repositories">
+    <strong>Explore all repositories →</strong>
+  </a>
 </p><p align="center">
-  <strong>Thanks for visiting my profile!</strong>
-  <br />
+  <strong>Thanks for visiting my profile!</strong><br />
   <em>Learning continuously. Building consistently.</em>
 </p>
