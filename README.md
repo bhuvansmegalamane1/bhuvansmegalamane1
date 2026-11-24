@@ -14,35 +14,38 @@
 
 ## About
 
-I’m a Computer Science Engineering graduate focused on building complete software systems where **AI, backend engineering, data, and intuitive interfaces** come together.
+> Computer Science Engineering graduate building practical software across AI, backend systems, data, and web applications.
 
 <table>
 <tr>
-<td align="center" width="33%">
+<td width="50%">
 
-### 🤖 AI &amp; ML
+**🤖 AI &amp; Machine Learning**
 
-Computer vision  
-Machine learning  
-Knowledge systems
+Computer vision · Machine learning · Knowledge systems
 
 </td>
-<td align="center" width="33%">
+<td width="50%">
 
-### ⚙️ Engineering
+**⚙️ Backend Engineering**
 
-Backend services  
-REST APIs  
-System design
+REST APIs · Backend services · System design
 
 </td>
-<td align="center" width="34%">
+</tr>
+<tr>
+<td width="50%">
 
-### 📊 Data
+**📊 Data Analytics**
 
-SQL &amp; Pandas  
-Power BI  
-Data storytelling
+SQL · Pandas · Power BI · Data visualization
+
+</td>
+<td width="50%">
+
+**🌐 Software Development**
+
+Python · Java · TypeScript · Web applications
 
 </td>
 </tr>
