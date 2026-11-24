@@ -79,7 +79,7 @@ Python · Java · TypeScript · Web applications
 <tr>
 <td align="center" width="50%">
 
-[![Knowledge Graph Project](https://github-readme-stats.vercel.app/api/pin/?username=bhuvansmegalamane1&amp;repo=tigergraph&amp;theme=tokyonight&amp;hide_border=true&amp;description_lines_count=2)](https://github.com/bhuvansmegalamane1/tigergraph)
+[![GraphRAG Project](https://github-readme-stats.vercel.app/api/pin/?username=bhuvansmegalamane1&amp;repo=tigergraph&amp;theme=tokyonight&amp;hide_border=true&amp;description_lines_count=2)](https://github.com/bhuvansmegalamane1/tigergraph)
 
 </td>
 <td align="center" width="50%">
@@ -117,26 +117,29 @@ Python · Java · TypeScript · Web applications
 ## GraphRAG Architecture
 
 ```mermaid
-flowchart LR
-    A["Documents\nPDF · TXT · DOCX"] --> B["Parsing"]
-    B --> C["Chunking"]
-    C --> D["Embeddings"]
-    D --> E[("Vector Store")]
+graph TD
+    Q["User Question"] --> RP["Retrieval Planner"]
 
-    B --> F["Entity & Relation Extraction"]
-    F --> G[("Knowledge Graph")]
+    subgraph Knowledge["GraphRAG Knowledge Base"]
+        D["Documents"] --> P["Parsing"]
+        P --> CH["Chunks"]
+        P --> EN["Entity & Relation Extraction"]
+        CH --> EM["Embeddings"]
+        EM --> VS[("Vector Index")]
+        EN --> KG[("Knowledge Graph")]
+    end
 
-    H["User Question"] --> I["Retrieval Planner"]
-    E --> I
-    G --> I
+    RP --> VS
+    RP --> KG
+    VS -->|semantic similarity| FC["Context Fusion"]
+    KG -->|graph relationships| FC
+    FC --> LLM["Language Model"]
+    LLM --> A["Grounded Answer"]
 
-    I --> J["Context Assembly"]
-    J --> K["LLM"]
-    K --> L["Grounded Response"]
-
-    style E fill:#164e63,stroke:#22d3ee,color:#ffffff
-    style G fill:#1e3a8a,stroke:#60a5fa,color:#ffffff
-    style L fill:#0f766e,stroke:#5eead4,color:#ffffff
+    style D fill:#0891b2,stroke:#67e8f9,color:#ffffff
+    style KG fill:#1d4ed8,stroke:#60a5fa,color:#ffffff
+    style VS fill:#164e63,stroke:#22d3ee,color:#ffffff
+    style A fill:#0f766e,stroke:#5eead4,color:#ffffff
 ```
 
 ## GitHub
