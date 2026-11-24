@@ -114,23 +114,29 @@ Python · Java · TypeScript · Web applications
 </tr>
 </table>
 
-## Project Map
+## Knowledge System
 
 ```mermaid
-mindmap
-  root((Bhuvan))
-    AI
-      Computer Vision
-      Machine Learning
-      Knowledge Systems
-    Software
-      Backend APIs
-      Web Applications
-      System Design
-    Data
-      SQL
-      Pandas
-      Power BI
+flowchart LR
+    A["Documents\nPDF · TXT · DOCX"] --> B["Parsing"]
+    B --> C["Chunking"]
+    C --> D["Embeddings"]
+    D --> E[("Vector Store")]
+
+    B --> F["Entity & Relation Extraction"]
+    F --> G[("Knowledge Graph")]
+
+    H["User Question"] --> I["Retrieval Planner"]
+    E --> I
+    G --> I
+
+    I --> J["Context Assembly"]
+    J --> K["LLM"]
+    K --> L["Grounded Response"]
+
+    style E fill:#164e63,stroke:#22d3ee,color:#ffffff
+    style G fill:#1e3a8a,stroke:#60a5fa,color:#ffffff
+    style L fill:#0f766e,stroke:#5eead4,color:#ffffff
 ```
 
 ## GitHub
