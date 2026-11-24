@@ -14,7 +14,7 @@
 
 ## About
 
-> Computer Science Engineering graduate building practical software across AI, backend systems, data, and web applications.
+> Computer Science Engineering graduate working across software engineering, AI applications, data systems, and GraphRAG.
 
 <table>
 <tr>
@@ -114,7 +114,7 @@ Python · Java · TypeScript · Web applications
 </tr>
 </table>
 
-## Knowledge System
+## GraphRAG Architecture
 
 ```mermaid
 flowchart LR
