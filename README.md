@@ -1,162 +1,79 @@
-<div align="center">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+  <title id="title">GraphRAG knowledge network</title>
+  <desc id="desc">A knowledge graph centered on GraphRAG, connected to source documents, entities, relationships, retrieval, and grounded answers.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:020617,45:172554,100:0891B2&amp;height=210&amp;section=header&amp;text=Bhuvan%20S%20Megalamane&amp;fontSize=44&amp;fontColor=FFFFFF&amp;fontAlignY=34&amp;desc=COMPUTER%20SCIENCE%20ENGINEER%20%E2%80%A2%20SOFTWARE%20DEVELOPER&amp;descAlignY=57&amp;descSize=16&amp;animation=fadeIn" width="100%" alt="Bhuvan S Megalamane" />
+  <rect width="1000" height="560" rx="18" fill="url(#bg)"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=20&amp;pause=1000&amp;color=67E8F9&amp;center=true&amp;vCenter=true&amp;width=760&amp;lines=Building+AI-powered+applications.;Turning+data+into+decisions.;Turning+ideas+into+working+systems." alt="Developer tagline" />
+  <g stroke="#334155" stroke-width="2" opacity="0.9">
+    <line x1="500" y1="280" x2="180" y2="95"/>
+    <line x1="500" y1="280" x2="420" y2="80"/>
+    <line x1="500" y1="280" x2="820" y2="95"/>
+    <line x1="500" y1="280" x2="110" y2="280"/>
+    <line x1="500" y1="280" x2="890" y2="280"/>
+    <line x1="500" y1="280" x2="170" y2="470"/>
+    <line x1="500" y1="280" x2="420" y2="485"/>
+    <line x1="500" y1="280" x2="820" y2="470"/>
+  </g>
 
-<br/>
+  <g fill="#38bdf8" font-family="Segoe UI, Arial, sans-serif" font-size="14" text-anchor="middle">
+    <rect x="130" y="70" width="100" height="54" rx="27" fill="#075985" stroke="#38bdf8" stroke-width="2"/>
+    <text x="180" y="92" fill="#dff6ff">SOURCE</text>
+    <text x="180" y="112" fill="#dff6ff">PDF · TXT</text>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=bhuvansmegalamane1&amp;style=flat-square&amp;color=0891b2&amp;label=PROFILE+VIEWS)](https://github.com/bhuvansmegalamane1)
-[![Followers](https://img.shields.io/github/followers/bhuvansmegalamane1?style=flat-square&amp;color=2563eb&amp;logo=github&amp;label=FOLLOWERS)](https://github.com/bhuvansmegalamane1?tab=followers)
-[![Repositories](https://img.shields.io/badge/OPEN_SOURCE-EXPLORE-7C3AED?style=flat-square&amp;logo=github&amp;logoColor=white)](https://github.com/bhuvansmegalamane1?tab=repositories)
+    <rect x="370" y="55" width="100" height="54" rx="27" fill="#0f766e" stroke="#5eead4" stroke-width="2"/>
+    <text x="420" y="77" fill="#ecfeff">CHUNKS</text>
+    <text x="420" y="97" fill="#ecfeff">SEGMENTS</text>
 
-</div>
+    <rect x="770" y="70" width="100" height="54" rx="27" fill="#1d4ed8" stroke="#60a5fa" stroke-width="2"/>
+    <text x="820" y="92" fill="#eff6ff">ENTITIES</text>
+    <text x="820" y="112" fill="#eff6ff">CONCEPTS</text>
 
-## About
+    <rect x="60" y="252" width="100" height="54" rx="27" fill="#7c3aed" stroke="#c4b5fd" stroke-width="2"/>
+    <text x="110" y="274" fill="#f5f3ff">ENTITY</text>
+    <text x="110" y="294" fill="#f5f3ff">NODES</text>
 
-> Computer Science Engineering graduate working across software engineering, AI applications, data systems, and GraphRAG.
+    <rect x="840" y="252" width="100" height="54" rx="27" fill="#0369a1" stroke="#38bdf8" stroke-width="2"/>
+    <text x="890" y="274" fill="#eff6ff">VECTOR</text>
+    <text x="890" y="294" fill="#eff6ff">INDEX</text>
 
-<table>
-<tr>
-<td width="50%">
+    <rect x="120" y="442" width="100" height="54" rx="27" fill="#be123c" stroke="#fda4af" stroke-width="2"/>
+    <text x="170" y="464" fill="#fff1f2">RELATION</text>
+    <text x="170" y="484" fill="#fff1f2">EDGES</text>
 
-**🤖 AI &amp; Machine Learning**
+    <rect x="370" y="457" width="100" height="54" rx="27" fill="#0891b2" stroke="#67e8f9" stroke-width="2"/>
+    <text x="420" y="479" fill="#ecfeff">RETRIEVAL</text>
+    <text x="420" y="499" fill="#ecfeff">PLANNER</text>
 
-Computer vision · Machine learning · Knowledge systems
+    <rect x="770" y="442" width="100" height="54" rx="27" fill="#0f766e" stroke="#5eead4" stroke-width="2"/>
+    <text x="820" y="464" fill="#ecfeff">GROUNDED</text>
+    <text x="820" y="484" fill="#ecfeff">ANSWER</text>
+  </g>
 
-</td>
-<td width="50%">
+  <g filter="url(#glow)">
+    <circle cx="500" cy="280" r="82" fill="#172554" stroke="#67e8f9" stroke-width="3"/>
+    <circle cx="500" cy="280" r="64" fill="#020617" stroke="#0891b2" stroke-width="2"/>
+  </g>
+  <text x="500" y="266" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">GraphRAG</text>
+  <text x="500" y="294" fill="#67e8f9" font-family="Segoe UI, Arial, sans-serif" font-size="16" text-anchor="middle">Knowledge Graph</text>
 
-**⚙️ Backend Engineering**
-
-REST APIs · Backend services · System design
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**📊 Data Analytics**
-
-SQL · Pandas · Power BI · Data visualization
-
-</td>
-<td width="50%">
-
-**🌐 Software Development**
-
-Python · Java · TypeScript · Web applications
-
-</td>
-</tr>
-</table>
-
-## Technology
-
-<div align="center">
-
-### Languages
-
-<img src="https://skillicons.dev/icons?i=python,java,javascript,typescript,react,nodejs,html,css&amp;perline=8" alt="Programming languages and frameworks" />
-
-### AI · Data · Infrastructure
-
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,mysql,postgres,docker,azure,git,github,vscode&amp;perline=10" alt="AI, data and infrastructure" />
-
-<br/>
-
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI" />
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&amp;logo=streamlit&amp;logoColor=white" alt="Streamlit" />
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&amp;logo=pandas&amp;logoColor=white" alt="Pandas" />
-<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&amp;logo=powerbi&amp;logoColor=black" alt="Power BI" />
-<img src="https://img.shields.io/badge/YOLO-111F68?style=for-the-badge&amp;logo=ultralytics&amp;logoColor=white" alt="YOLO" />
-
-</div>
-
-## Featured Work
-
-<table>
-<tr>
-<td align="center" width="50%">
-
-[![GraphRAG Project](https://github-readme-stats.vercel.app/api/pin/?username=bhuvansmegalamane1&amp;repo=tigergraph&amp;theme=tokyonight&amp;hide_border=true&amp;description_lines_count=2)](https://github.com/bhuvansmegalamane1/tigergraph)
-
-</td>
-<td align="center" width="50%">
-
-[![Diabetic Foot Ulcer AI](https://github-readme-stats.vercel.app/api/pin/?username=bhuvansmegalamane1&amp;repo=Detection-and-Classification-of-Diabetic-Foot-Ulcer&amp;theme=tokyonight&amp;hide_border=true&amp;description_lines_count=2)](https://github.com/bhuvansmegalamane1/Detection-and-Classification-of-Diabetic-Foot-Ulcer)
-
-</td>
-</tr>
-<tr>
-<td align="center" width="50%">
-
-[![HR Analytics Dashboard](https://github-readme-stats.vercel.app/api/pin/?username=bhuvansmegalamane1&amp;repo=HR-Analytics-Dashboard&amp;theme=tokyonight&amp;hide_border=true&amp;description_lines_count=2)](https://github.com/bhuvansmegalamane1/HR-Analytics-Dashboard)
-
-</td>
-<td align="center" width="50%">
-
-[![Retail Sales Analysis](https://github-readme-stats.vercel.app/api/pin/?username=bhuvansmegalamane1&amp;repo=Retail-Sales-SQL-Pandas-Analysis&amp;theme=tokyonight&amp;hide_border=true&amp;description_lines_count=2)](https://github.com/bhuvansmegalamane1/Retail-Sales-SQL-Pandas-Analysis)
-
-</td>
-</tr>
-<tr>
-<td align="center" width="50%">
-
-[![Interview Insight](https://github-readme-stats.vercel.app/api/pin/?username=bhuvansmegalamane1&amp;repo=interviewinsight-analyzer1&amp;theme=tokyonight&amp;hide_border=true&amp;description_lines_count=2)](https://github.com/bhuvansmegalamane1/interviewinsight-analyzer1)
-
-</td>
-<td align="center" width="50%">
-
-[![Zenvic](https://github-readme-stats.vercel.app/api/pin/?username=bhuvansmegalamane1&amp;repo=Zenvic_1&amp;theme=tokyonight&amp;hide_border=true&amp;description_lines_count=2)](https://github.com/bhuvansmegalamane1/Zenvic_1)
-
-</td>
-</tr>
-</table>
-
-## GraphRAG Architecture
-
-```mermaid
-graph TD
-    Q["User Question"] --> RP["Retrieval Planner"]
-
-    subgraph Knowledge["GraphRAG Knowledge Base"]
-        D["Documents"] --> P["Parsing"]
-        P --> CH["Chunks"]
-        P --> EN["Entity & Relation Extraction"]
-        CH --> EM["Embeddings"]
-        EM --> VS[("Vector Index")]
-        EN --> KG[("Knowledge Graph")]
-    end
-
-    RP --> VS
-    RP --> KG
-    VS -->|semantic similarity| FC["Context Fusion"]
-    KG -->|graph relationships| FC
-    FC --> LLM["Language Model"]
-    LLM --> A["Grounded Answer"]
-
-    style D fill:#0891b2,stroke:#67e8f9,color:#ffffff
-    style KG fill:#1d4ed8,stroke:#60a5fa,color:#ffffff
-    style VS fill:#164e63,stroke:#22d3ee,color:#ffffff
-    style A fill:#0f766e,stroke:#5eead4,color:#ffffff
-```
-
-## GitHub
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=bhuvansmegalamane1&amp;show_icons=true&amp;rank_icon=github&amp;include_all_commits=true&amp;hide_border=true&amp;theme=tokyonight" alt="GitHub statistics" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhuvansmegalamane1&amp;layout=compact&amp;langs_count=8&amp;hide_border=true&amp;theme=tokyonight" alt="Top languages" />
-
-<img width="78%" src="https://streak-stats.demolab.com?user=bhuvansmegalamane1&amp;theme=tokyonight&amp;hide_border=true" alt="GitHub streak" />
-
-</div>
-
-<div align="center">
-
-[![Explore Repositories](https://img.shields.io/badge/EXPLORE_REPOSITORIES-0F172A?style=for-the-badge&amp;logo=github&amp;logoColor=white)](https://github.com/bhuvansmegalamane1?tab=repositories)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0891B2,50:172554,100:020617&amp;height=110&amp;section=footer" width="100%" alt="Footer" />
-
-</div>
+  <g fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="13" text-anchor="middle">
+    <text x="340" y="178" transform="rotate(-38 340 178)">INGESTS</text>
+    <text x="458" y="176" transform="rotate(-78 458 176)">CHUNKS</text>
+    <text x="660" y="178" transform="rotate(38 660 178)">EXTRACTS</text>
+    <text x="300" y="278">CONNECTS</text>
+    <text x="700" y="278">SIMILARITY</text>
+    <text x="320" y="402" transform="rotate(44 320 402)">RELATES</text>
+    <text x="462" y="390" transform="rotate(78 462 390)">RETRIEVES</text>
+    <text x="660" y="402" transform="rotate(-38 660 402)">GENERATES</text>
+  </g>
+</svg>
